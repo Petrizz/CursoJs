@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio extrangeiro</title>
+</head>
+<body>
+    <h1>Brasileiro ou estrangeiro?</h1>
+    <label for="pais">País</label>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Enviar" onclick="clique()">
+
+    <div id="resp"></div>
+
+    <script>
+        
+        function clique(){
+        var pais = window.document.querySelector('input#pais')
+        var resp = window.document.querySelector('div#resp')
+
+        if(pais.value == 'Brasil'){
+
+            resp.innerHTML = 'Você é Brasileiro'
+
+        }else{
+           resp.innerHTML = 'Você é Estrangeiro'
+        }
+    }
+
+    </script>
+    
+</body>
+</html>
