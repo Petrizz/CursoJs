@@ -39,10 +39,11 @@
 ---
   ## Armazenamento
 
-  _Podemos armazenar atribuindo usando as **variaveis** declaradas seguida de `=` e os **comandos**_
+  _Podemos armazenar atribuindo usando as **variaveis** declaradas seguida de `=` e os **comandos** *Para usar alguns tipos é necessario usar `.value`_
 
   ### Tratando de String
-  __
+ 
+  
     var string
     string = window.prompt("Escreva algo"); // ira armazenar o que for digitado como string
     string.length; // retorna a quantidade de caracters
