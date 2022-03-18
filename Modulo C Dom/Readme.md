@@ -51,13 +51,15 @@
 ---
 
  _Para o mouse no Js podemos ter alguns eventos como:_
-
+   
  - onmouseenter: Mouse dentro de algum lugar
  - onmousemove: mouse ainda dentro de algo se mexe
  - onmousedown: click e segurar
  - onmouseup: depois de estar segurando soltar o mouse
  - onclick: click simples
  - onmouseout: tirar o mouse de algum elemento
+
+   Mais algumas funções aqui https://developer.mozilla.org/pt-BR/docs/Web/Events
 
 ## Como chamar essas ações
 
