@@ -25,7 +25,7 @@
        -  window.document.getElementById('valor do Id')
    - por Nome 
        - window.document.getElementsByName()
-   - por Calsse
+   - por Classe
        - window.document.getElementsByClassName()
    - por Seletor
        - window.document.querySelector()
@@ -91,8 +91,33 @@
 
           }
          </script>` 
+     
+  ## Criando elementos html e css
+  
+  ---
+  
+  _Podemos acessar css atravez do DOM utilizando .style.AlgumacaracteristicaCSS, podemos também, criar tag de formas dinamicas usando o Js_
         
+   - tag normalmente é composta de varios valores como o src alt
+      exemplo: `<img src="img/menino.png" alt="menino">`
+    
+          var img = document.createElement('img')//criou uma tag img
+          img.setAttribute('src', 'img/menina.png', 'alt', 'menino') //adicionando src e alt
+          //podemos também setar um id
+           img.setAttribute('id', 'foto')
+           
+        - no final a tag ficou assim: `<img src="img/menino.png" alt="menino" id = "foto">` e podemos adicionar essa tag a uma div por exemplo
         
+         var imagem = document.querySelector('div#img')
+         imagem.appendChild(img)
+   
+   - *se reescrevermos um setAttribute nos tambem reescrevemos os valores*
+
+ [Exemplo em prática](https://github.com/Petrizz/CursoJs/blob/main/Exercicios/Idade/script.js)
+ 
+ imagem.appendChild(img)
+      
+
 
 
 
