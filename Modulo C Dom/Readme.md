@@ -110,10 +110,22 @@
         
          var imagem = document.querySelector('div#img')
          imagem.appendChild(img)
+         
+        [Exemplo em prática](https://github.com/Petrizz/CursoJs/blob/main/Exercicios/Idade/script.js)
+         
+        - Podemos setar alguns valores assim também:
+         
+         let item = document.createElement('option')
+         item.text = `Esse é o texto que vai aparecer no option`
+         item.value = `Esse é o valor`
+         tab.appendChild(item) // tab é um elemento tabela
+        
+        [Exemplo em prática](https://github.com/Petrizz/CursoJs/blob/main/Exercicios/tabuada/script.js)
+         
    
    - *se reescrevermos um setAttribute nos tambem reescrevemos os valores*
 
- [Exemplo em prática](https://github.com/Petrizz/CursoJs/blob/main/Exercicios/Idade/script.js)
+ 
  
  imagem.appendChild(img)
       
